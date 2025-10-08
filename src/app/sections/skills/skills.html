@@ -1,0 +1,11 @@
+<div class="skills container">
+    <h2 class="skills__title h2">Tools I've used</h2>
+  
+    <div class="skills__grid">
+      <div class="skills__card" *ngFor="let skill of skills">
+        <img class="skills__icon" [src]="skill.icon" [alt]="skill.name" />
+        <span class="skills__name">{{ skill.name }}</span>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,14 @@
+<div class="projects container">
+    <h2 class="projects__title h2">My Projects</h2>
+  
+    <div class="projects__grid">
+      <article class="projects__card" *ngFor="let project of projects">
+        <img class="projects__thumb" [src]="project.image" [alt]="project.name" />
+        <div class="projects__body">
+          <h3 class="projects__name">{{ project.name }}</h3>
+          <p class="projects__desc">{{ project.desc }}</p>
+        </div>
+      </article>
+    </div>
+  </div>
+  

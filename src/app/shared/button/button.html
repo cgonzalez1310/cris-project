@@ -1,0 +1,15 @@
+<!-- Si es link -->
+<a *ngIf="href"
+   [href]="href"
+   class="btn"
+   [ngClass]="{'btn--primary': variant==='primary', 'btn--ghost': variant==='ghost'}">
+  {{ label }}
+</a>
+
+<!-- Si es botón -->
+<button *ngIf="!href"
+        [type]="type"
+        class="btn"
+        [ngClass]="{'btn--primary': variant==='primary', 'btn--ghost': variant==='ghost'}">
+  {{ label }}
+</button>

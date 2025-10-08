@@ -1,0 +1,43 @@
+.contact__title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact__form {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  
+  .contact__field {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact__label {
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  
+  .contact__input,
+  .contact__textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .contact__input:focus,
+  .contact__textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px rgba(0, 122, 204, 0.12);
+  }
+  
+  .contact__error {
+    color: #d14;
+    font-size: 0.85rem;
+    margin-top: 4px;
+  }
+  

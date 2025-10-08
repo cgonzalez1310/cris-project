@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --bg: #ffffff;
+    --panel: #f6f8fb;
+    --text: #0f1720;
+    --muted: #616f7c;
+    --border: #e2e8f0;
+    --accent: #007acc;
+    --accent-2: #005a99;
+    --nav-bg: #000000;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  
+  
