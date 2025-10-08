@@ -10,14 +10,14 @@ import { CommonModule } from '@angular/common';
 })
 export class SkillsComponent {
   skills = [
-    { name: 'AWS', icon: 'assets/icons/aws.png' },
-    { name: 'Docker', icon: 'assets/icons/docker.png' },
-    { name: 'Kubernetes', icon: 'assets/icons/kubernetes.png' },
-    { name: 'Terraform', icon: 'assets/icons/terraform.png' },
-    { name: 'ArgoCD', icon: 'assets/icons/argocd.png' },
-    { name: 'GitHub', icon: 'assets/icons/github.png' },
-    { name: 'Grafana', icon: 'assets/icons/grafana.png' },
-    { name: 'Datadog', icon: 'assets/icons/datadog.png' },
-    { name: 'Linux', icon: 'assets/icons/linux.png' }
+    { name: 'AWS', icon: 'images/aws.png' },
+    { name: 'Docker', icon: 'images/docker.png' },
+    { name: 'Kubernetes', icon: 'images/kubernetes.png' },
+    { name: 'Terraform', icon: 'images/terraform.png' },
+    { name: 'ArgoCD', icon: 'images/argocd.png' },
+    { name: 'GitHub', icon: 'images/github.png' },
+    { name: 'Grafana', icon: 'images/grafana.png' },
+    { name: 'Datadog', icon: 'images/datadog.png' },
+    { name: 'Linux', icon: 'images/linux.png' }
   ];
 }
