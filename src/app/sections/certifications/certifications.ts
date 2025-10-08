@@ -12,19 +12,19 @@ export class CertificationsComponent {
   certifications = [
     {
       name: 'AWS Solutions Architect – Associate',
-      icon: 'assets/certs/aws-saa.png'
+      icon: 'images/aws.png'
     },
     {
       name: 'AWS Cloud Practitioner',
-      icon: 'assets/certs/aws-cp.png'
+      icon: 'images/aws.png'
     },
     {
       name: 'Cisco CCNA',
-      icon: 'assets/certs/ccna.png'
+      icon: 'images/ccna.png'
     },
     {
       name: 'VMware VCP',
-      icon: 'assets/certs/vcp.png'
+      icon: 'images/vcp.png'
     }
   ];
 }
