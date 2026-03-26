@@ -1,48 +1,23 @@
-<!-- Navbar fijo con anclas -->
 <header class="navbar">
-  <nav class="navbar__inner">
-    <a class="navbar__brand" href="#banner">CG</a>
-    <ul class="navbar__links">
-      <li><a href="#banner">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#contact" class="navbar__cta">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <!-- Hero Section -->
-  <section id="banner" class="section section--hero">
-    <app-banner></app-banner>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="section section--light">
-    <app-about></app-about>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="section section--gradient">
-    <app-skills></app-skills>
-  </section>
-
-  <!-- Certifications Section -->
-  <section id="certifications" class="section section--light">
-    <app-certifications></app-certifications>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section section--gradient-alt">
-    <app-contacto></app-contacto>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container footer__inner">
-    <p class="footer__text">By Cristian Gonzales | © 2025 | All Rights Reserved.</p>
-  </div>
-</footer>
+    <nav class="navbar__inner">
+      <a class="navbar__brand" routerLink="/">CG</a> <!-- changed: use Angular router instead of href -->
   
+      <ul class="navbar__links">
+        <li><a routerLink="/" fragment="banner">Home</a></li> <!-- changed -->
+        <li><a routerLink="/" fragment="about">About</a></li> <!-- changed -->
+        <li><a routerLink="/" fragment="skills">Skills</a></li> <!-- changed -->
+        <li><a routerLink="/" fragment="certifications">Certifications</a></li> <!-- changed -->
+        <li><a routerLink="/projects">Projects</a></li> <!-- added -->
+        <li><a routerLink="/" fragment="contact" class="navbar__cta">Contact</a></li> <!-- changed -->
+      </ul>
+    </nav>
+  </header>
   
+  <router-outlet></router-outlet> <!-- changed: AppComponent now renders routed pages -->
+  
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__text">By Cristian Gonzales | © 2025 | All Rights Reserved.</p>
+    </div>
+  </footer>
+    

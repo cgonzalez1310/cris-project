@@ -11,19 +11,19 @@ import { CommonModule } from '@angular/common';
 export class ProjectsComponent {
   projects = [
     {
-      name: 'EKS Platform on AWS',
-      desc: 'GitOps with Argo CD, monitoring and centralized logging.',
-      image: 'assets/projects/p1.jpg'
+      name: 'B2B in AWS',
+      desc: 'A completed AWS architecture',
+      image: '/images/projects/b2b_aws.jpg'
     },
     {
-      name: 'Serverless API',
-      desc: 'API Gateway + Lambda + SQS with Terraform and CI/CD.',
-      image: 'assets/projects/p2.jpg'
+      name: 'WebSocket in ECS',
+      desc: 'A websocket in ECS deployed using Terraform',
+      image: '/images/projects/bitgo_express.jpg'
     },
     {
-      name: 'Observability Stack',
-      desc: 'Dashboards and alerts with Grafana/Prometheus.',
-      image: 'assets/projects/p3.jpg'
+      name: 'CICD Split for App and Infra',
+      desc: 'A pipeline example when projects has app and infra components',
+      image: '/images/projects/CICD_app_infra.jpg'
     }
   ];
 }
